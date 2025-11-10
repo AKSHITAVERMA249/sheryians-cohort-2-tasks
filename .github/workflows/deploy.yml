@@ -23,7 +23,7 @@ jobs:
       - name: Upload All Subfolders
         run: |
           mkdir _site
-          for folder in day-*; do
+          for folder in task-*; do
             if [ -d "$folder" ]; then
               mkdir -p "_site/$folder"
               cp -r "$folder"/* "_site/$folder/"

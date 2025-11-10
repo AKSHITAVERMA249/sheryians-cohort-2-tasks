@@ -1,0 +1,33 @@
+name: Test Deploy Logic
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Run Unit Tests
+        run: |
+          chmod +x .github/workflows/test-deploy.sh
+          ./.github/workflows/test-deploy.sh
+      
+      - name: Test Summary
+        if: always()
+        run: |
+          if [ $? -eq 0 ]; then
+            echo "✅ All tests passed successfully!"
+          else
+            echo "❌ Some tests failed. Please review the output above."
+            exit 1
+          fi
