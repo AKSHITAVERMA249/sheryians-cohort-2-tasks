@@ -22,7 +22,7 @@ main{
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 #education{
     color:black;
@@ -32,7 +32,7 @@ main{
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 #skills{
     color:black;
@@ -42,7 +42,7 @@ main{
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 #projects{
     color:black;
@@ -52,7 +52,7 @@ main{
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 #Contact-me{
     color:black;
@@ -63,7 +63,7 @@ main{
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .input{
@@ -73,7 +73,7 @@ main{
     background-color: whitesmoke;
     border-radius: 4px;
     margin-bottom: 10px;
-    margin-left: 220px;
+    margin-left: 170px;
 }
 .input p{
     padding:10px;
