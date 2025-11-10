@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(27, 41, 59);
+    height:screen;
+    width:screen;
+    text-align: center;
+    color:antiquewhite;
+}
+main{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    flex:auto;
+    margin-top: 20px;
+    padding:10px;
+}
+
+#about-me{
+    color: black;
+    height:80%;
+    width: 80%;
+    background-color: rgb(241, 223, 223);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#education{
+    color:black;
+    height:80%;
+    width: 80%;
+    background-color: rgb(203, 221, 232);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#skills{
+    color:black;
+    height:80%;
+    width: 80%;
+    background-color:rgb(254, 243, 199);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#projects{
+    color:black;
+    height:80%;
+    width: 80%;
+    background-color:rgb(238, 233, 254);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#Contact-me{
+    color:black;
+    height:80%;
+    width: 80%;
+    background-color:rgb(212, 248, 224);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.input{
+    height:40px;
+    width:70%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+}
+.input p{
+    padding:10px;
+}
+
+
