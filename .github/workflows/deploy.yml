@@ -1,0 +1,40 @@
+name: Deploy All Subfolders to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Runs when you push to main branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload All Subfolders
+        run: |
+          mkdir _site
+          for folder in day-*; do
+            if [ -d "$folder" ]; then
+              mkdir -p "_site/$folder"
+              cp -r "$folder"/* "_site/$folder/"
+            fi
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
