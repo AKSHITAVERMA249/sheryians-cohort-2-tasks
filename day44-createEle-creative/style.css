@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+main{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main h1{
+    font-size: xx-large;
+    color: red;
+    position: relative;
+    z-index: 100;
+}
+.bubble{
+    height:50px;
+    width:50px;
+    background-color: black;
+    border-radius: 50%;
+    
+    border-color: greenyellow;
+    border-style: double;
+}

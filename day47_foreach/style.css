@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body,html{
+    height: 100%;
+    width:100%;
+    background-color: bisque;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    color: coral;
+    font-style: italic;
+    font-weight: 900;
+}
+main{
+    height:100%;
+    width:100%;
+    text-align: center;
+    padding:30px;
+    display:flex;
+    gap:50px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.card{
+    height:60%;
+    width:20%;
+    background-color: rgb(42, 42, 42);
+    border-radius: 20px;
+    padding: 10px;
+    color: antiquewhite;
+}
+.card img{
+    height:60%;
+    width:80%;
+    border-radius: 20px;
+}
+.card h1{
+    color: coral;
+}

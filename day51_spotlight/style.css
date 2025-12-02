@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body,html{
+    height:100%;
+    width: 100%;
+    /* background-image: url(https://i.pinimg.com/736x/d5/d3/7c/d5d37c8fad987d0aca657ac4b0c53d40.jpg); */
+    background-image:url(https://i.pinimg.com/originals/34/2a/0e/342a0e81a6e10ed901997776cb234ba9.gif);
+    background-size: cover;
+}
+
+
+:root{
+    --x:100px;
+    --y:100px;
+}
+#circle{
+    z-index: 100;
+    height:100%;
+    width:100%;
+    background: radial-gradient(150px at var(--x) var(--y),transparent,rgb(5, 5, 5));
+}

@@ -48,6 +48,7 @@ nav a{
     color:#f5f5f5;
     font-size: larger;
     border:transparent;
+    cursor:pointer;
 }
 #hero-img h2{
     position: absolute;
